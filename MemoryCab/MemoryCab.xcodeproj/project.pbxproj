@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFEE367217C150D500B12227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE367117C150D500B12227 /* UIKit.framework */; };
+		BFEE367417C150D500B12227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE367317C150D500B12227 /* Foundation.framework */; };
+		BFEE367617C150D500B12227 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE367517C150D500B12227 /* CoreGraphics.framework */; };
+		BFEE367C17C150D500B12227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEE367A17C150D500B12227 /* InfoPlist.strings */; };
+		BFEE367E17C150D500B12227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE367D17C150D500B12227 /* main.m */; };
+		BFEE368217C150D500B12227 /* mCabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE368117C150D500B12227 /* mCabAppDelegate.m */; };
+		BFEE368417C150D500B12227 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEE368317C150D500B12227 /* Default.png */; };
+		BFEE368617C150D500B12227 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEE368517C150D500B12227 /* Default@2x.png */; };
+		BFEE368817C150D500B12227 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEE368717C150D500B12227 /* Default-568h@2x.png */; };
+		BFEE368B17C150D500B12227 /* mCabRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE368A17C150D500B12227 /* mCabRootViewController.m */; };
+		BFEE368E17C150D500B12227 /* mCabDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE368D17C150D500B12227 /* mCabDataViewController.m */; };
+		BFEE369117C150D500B12227 /* mCabModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE369017C150D500B12227 /* mCabModelController.m */; };
+		BFEE369417C150D500B12227 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEE369217C150D500B12227 /* MainStoryboard.storyboard */; };
+		BFEE369C17C150D500B12227 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE369B17C150D500B12227 /* SenTestingKit.framework */; };
+		BFEE369D17C150D500B12227 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE367117C150D500B12227 /* UIKit.framework */; };
+		BFEE369E17C150D500B12227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE367317C150D500B12227 /* Foundation.framework */; };
+		BFEE36A617C150D500B12227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEE36A417C150D500B12227 /* InfoPlist.strings */; };
+		BFEE36A917C150D500B12227 /* MemoryCabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEE36A817C150D500B12227 /* MemoryCabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFEE369F17C150D500B12227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFEE366617C150D500B12227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEE366D17C150D500B12227;
+			remoteInfo = MemoryCab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFEE366E17C150D500B12227 /* MemoryCab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryCab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEE367117C150D500B12227 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFEE367317C150D500B12227 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFEE367517C150D500B12227 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFEE367917C150D500B12227 /* MemoryCab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryCab-Info.plist"; sourceTree = "<group>"; };
+		BFEE367B17C150D500B12227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFEE367D17C150D500B12227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFEE367F17C150D500B12227 /* MemoryCab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryCab-Prefix.pch"; sourceTree = "<group>"; };
+		BFEE368017C150D500B12227 /* mCabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mCabAppDelegate.h; sourceTree = "<group>"; };
+		BFEE368117C150D500B12227 /* mCabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mCabAppDelegate.m; sourceTree = "<group>"; };
+		BFEE368317C150D500B12227 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BFEE368517C150D500B12227 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BFEE368717C150D500B12227 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFEE368917C150D500B12227 /* mCabRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mCabRootViewController.h; sourceTree = "<group>"; };
+		BFEE368A17C150D500B12227 /* mCabRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mCabRootViewController.m; sourceTree = "<group>"; };
+		BFEE368C17C150D500B12227 /* mCabDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mCabDataViewController.h; sourceTree = "<group>"; };
+		BFEE368D17C150D500B12227 /* mCabDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mCabDataViewController.m; sourceTree = "<group>"; };
+		BFEE368F17C150D500B12227 /* mCabModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mCabModelController.h; sourceTree = "<group>"; };
+		BFEE369017C150D500B12227 /* mCabModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mCabModelController.m; sourceTree = "<group>"; };
+		BFEE369317C150D500B12227 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BFEE369A17C150D500B12227 /* MemoryCabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryCabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEE369B17C150D500B12227 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFEE36A317C150D500B12227 /* MemoryCabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryCabTests-Info.plist"; sourceTree = "<group>"; };
+		BFEE36A517C150D500B12227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFEE36A717C150D500B12227 /* MemoryCabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryCabTests.h; sourceTree = "<group>"; };
+		BFEE36A817C150D500B12227 /* MemoryCabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryCabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFEE366B17C150D500B12227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE367217C150D500B12227 /* UIKit.framework in Frameworks */,
+				BFEE367417C150D500B12227 /* Foundation.framework in Frameworks */,
+				BFEE367617C150D500B12227 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEE369617C150D500B12227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE369C17C150D500B12227 /* SenTestingKit.framework in Frameworks */,
+				BFEE369D17C150D500B12227 /* UIKit.framework in Frameworks */,
+				BFEE369E17C150D500B12227 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFEE366517C150D500B12227 = {
+			isa = PBXGroup;
+			children = (
+				BFEE367717C150D500B12227 /* MemoryCab */,
+				BFEE36A117C150D500B12227 /* MemoryCabTests */,
+				BFEE367017C150D500B12227 /* Frameworks */,
+				BFEE366F17C150D500B12227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEE366F17C150D500B12227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE366E17C150D500B12227 /* MemoryCab.app */,
+				BFEE369A17C150D500B12227 /* MemoryCabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEE367017C150D500B12227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE367117C150D500B12227 /* UIKit.framework */,
+				BFEE367317C150D500B12227 /* Foundation.framework */,
+				BFEE367517C150D500B12227 /* CoreGraphics.framework */,
+				BFEE369B17C150D500B12227 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEE367717C150D500B12227 /* MemoryCab */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE368017C150D500B12227 /* mCabAppDelegate.h */,
+				BFEE368117C150D500B12227 /* mCabAppDelegate.m */,
+				BFEE368917C150D500B12227 /* mCabRootViewController.h */,
+				BFEE368A17C150D500B12227 /* mCabRootViewController.m */,
+				BFEE368C17C150D500B12227 /* mCabDataViewController.h */,
+				BFEE368D17C150D500B12227 /* mCabDataViewController.m */,
+				BFEE368F17C150D500B12227 /* mCabModelController.h */,
+				BFEE369017C150D500B12227 /* mCabModelController.m */,
+				BFEE369217C150D500B12227 /* MainStoryboard.storyboard */,
+				BFEE367817C150D500B12227 /* Supporting Files */,
+			);
+			path = MemoryCab;
+			sourceTree = "<group>";
+		};
+		BFEE367817C150D500B12227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE367917C150D500B12227 /* MemoryCab-Info.plist */,
+				BFEE367A17C150D500B12227 /* InfoPlist.strings */,
+				BFEE367D17C150D500B12227 /* main.m */,
+				BFEE367F17C150D500B12227 /* MemoryCab-Prefix.pch */,
+				BFEE368317C150D500B12227 /* Default.png */,
+				BFEE368517C150D500B12227 /* Default@2x.png */,
+				BFEE368717C150D500B12227 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFEE36A117C150D500B12227 /* MemoryCabTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE36A717C150D500B12227 /* MemoryCabTests.h */,
+				BFEE36A817C150D500B12227 /* MemoryCabTests.m */,
+				BFEE36A217C150D500B12227 /* Supporting Files */,
+			);
+			path = MemoryCabTests;
+			sourceTree = "<group>";
+		};
+		BFEE36A217C150D500B12227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE36A317C150D500B12227 /* MemoryCabTests-Info.plist */,
+				BFEE36A417C150D500B12227 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFEE366D17C150D500B12227 /* MemoryCab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEE36AC17C150D500B12227 /* Build configuration list for PBXNativeTarget "MemoryCab" */;
+			buildPhases = (
+				BFEE366A17C150D500B12227 /* Sources */,
+				BFEE366B17C150D500B12227 /* Frameworks */,
+				BFEE366C17C150D500B12227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryCab;
+			productName = MemoryCab;
+			productReference = BFEE366E17C150D500B12227 /* MemoryCab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFEE369917C150D500B12227 /* MemoryCabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEE36AF17C150D500B12227 /* Build configuration list for PBXNativeTarget "MemoryCabTests" */;
+			buildPhases = (
+				BFEE369517C150D500B12227 /* Sources */,
+				BFEE369617C150D500B12227 /* Frameworks */,
+				BFEE369717C150D500B12227 /* Resources */,
+				BFEE369817C150D500B12227 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFEE36A017C150D500B12227 /* PBXTargetDependency */,
+			);
+			name = MemoryCabTests;
+			productName = MemoryCabTests;
+			productReference = BFEE369A17C150D500B12227 /* MemoryCabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEE366617C150D500B12227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mCab;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = OneStar;
+			};
+			buildConfigurationList = BFEE366917C150D500B12227 /* Build configuration list for PBXProject "MemoryCab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFEE366517C150D500B12227;
+			productRefGroup = BFEE366F17C150D500B12227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEE366D17C150D500B12227 /* MemoryCab */,
+				BFEE369917C150D500B12227 /* MemoryCabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFEE366C17C150D500B12227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE367C17C150D500B12227 /* InfoPlist.strings in Resources */,
+				BFEE368417C150D500B12227 /* Default.png in Resources */,
+				BFEE368617C150D500B12227 /* Default@2x.png in Resources */,
+				BFEE368817C150D500B12227 /* Default-568h@2x.png in Resources */,
+				BFEE369417C150D500B12227 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEE369717C150D500B12227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE36A617C150D500B12227 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFEE369817C150D500B12227 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEE366A17C150D500B12227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE367E17C150D500B12227 /* main.m in Sources */,
+				BFEE368217C150D500B12227 /* mCabAppDelegate.m in Sources */,
+				BFEE368B17C150D500B12227 /* mCabRootViewController.m in Sources */,
+				BFEE368E17C150D500B12227 /* mCabDataViewController.m in Sources */,
+				BFEE369117C150D500B12227 /* mCabModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEE369517C150D500B12227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEE36A917C150D500B12227 /* MemoryCabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFEE36A017C150D500B12227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFEE366D17C150D500B12227 /* MemoryCab */;
+			targetProxy = BFEE369F17C150D500B12227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFEE367A17C150D500B12227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEE367B17C150D500B12227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFEE369217C150D500B12227 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEE369317C150D500B12227 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BFEE36A417C150D500B12227 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEE36A517C150D500B12227 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFEE36AA17C150D500B12227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFEE36AB17C150D500B12227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFEE36AD17C150D500B12227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryCab/MemoryCab-Prefix.pch";
+				INFOPLIST_FILE = "MemoryCab/MemoryCab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFEE36AE17C150D500B12227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryCab/MemoryCab-Prefix.pch";
+				INFOPLIST_FILE = "MemoryCab/MemoryCab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFEE36B017C150D500B12227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemoryCab.app/MemoryCab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryCab/MemoryCab-Prefix.pch";
+				INFOPLIST_FILE = "MemoryCabTests/MemoryCabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BFEE36B117C150D500B12227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MemoryCab.app/MemoryCab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryCab/MemoryCab-Prefix.pch";
+				INFOPLIST_FILE = "MemoryCabTests/MemoryCabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFEE366917C150D500B12227 /* Build configuration list for PBXProject "MemoryCab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEE36AA17C150D500B12227 /* Debug */,
+				BFEE36AB17C150D500B12227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEE36AC17C150D500B12227 /* Build configuration list for PBXNativeTarget "MemoryCab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEE36AD17C150D500B12227 /* Debug */,
+				BFEE36AE17C150D500B12227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFEE36AF17C150D500B12227 /* Build configuration list for PBXNativeTarget "MemoryCabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEE36B017C150D500B12227 /* Debug */,
+				BFEE36B117C150D500B12227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFEE366617C150D500B12227 /* Project object */;
+}
